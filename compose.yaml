@@ -1,7 +1,7 @@
 ﻿services:
   buidtestconsoleapp:
-    image: buidtestconsoleapp
+    image: buildtestconsoleapp
     build:
       context: .
-      dockerfile: BuidTestConsoleApp/Dockerfile
+      dockerfile: BuildTestConsoleApp/Dockerfile
 
