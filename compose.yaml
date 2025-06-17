@@ -1,0 +1,7 @@
+﻿services:
+  buidtestconsoleapp:
+    image: buidtestconsoleapp
+    build:
+      context: .
+      dockerfile: BuidTestConsoleApp/Dockerfile
+
