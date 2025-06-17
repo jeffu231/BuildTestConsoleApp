@@ -11,13 +11,6 @@
             "--args",
             "${args}"
          ]
-      },
-      {
-         "name": "dotnet-format",
-         "group": "pre-commit",
-         "command": "dotnet-format",
-         "args": ["--include", "${staged}"],
-         "include": ["**/*.cs"]
       }
    ]
 }

@@ -3,7 +3,7 @@
 
 dotnet husky run --name "commit-message-linter" --args "$1"
 echo
-echo Great work!
+echo Commit message has valid format.
 echo
 
 ## husky task runner examples -------------------
@@ -24,4 +24,4 @@ echo
 ## or put your custom commands -------------------
 #echo 'Husky.Net is awesome!'
 
-dotnet husky run
+#dotnet husky run
