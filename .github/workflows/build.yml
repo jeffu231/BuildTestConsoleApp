@@ -43,6 +43,11 @@ jobs:
       - name: Build
         run: dotnet build
 
+      - name: Setup git
+        run: |
+          git config --local user.email "git@k9kld.org"
+          git config --local user.name "git"
+
       - name: Install Versionize
         run: dotnet tool install --global Versionize
         
@@ -55,11 +60,6 @@ jobs:
         if: steps.versionize.outcome != 'success'
         run: echo "Skipping Release. No release required."
         
-      - name: Setup git
-        run: |
-          git config --local user.email "git@k9kld.org"
-          git config --local user.name "git"
-
       - name: Push changes to GitHub
         if: steps.versionize.outcome == 'success'
         uses: ad-m/github-push-action@master
