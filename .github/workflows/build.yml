@@ -56,7 +56,7 @@ jobs:
         run: versionize --aggregate-pre-releases --skip-dirty
         continue-on-error: true
 
-      - name: No release required
+      - name: Test if release required
         if: steps.versionize.outcome != 'success'
         run: echo "Skipping Release. No release required."
         
@@ -92,6 +92,7 @@ jobs:
             }
           
 #      - name: Login to GitHub Container Registry
+#        if: steps.versionize.outcome == 'success'
 #        uses: docker/login-action@v3
 #        with:
 #          registry: ${{ env.REGISTRY }}
