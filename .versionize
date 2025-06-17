@@ -2,8 +2,8 @@
   "changelog": {
     "header": "BuildTestConsole Changelog",
     "includeAllCommits": true,
-    "skipDirty",
-    "aggregatePreReleases",
+    "skipDirty": true,
+    "aggregatePreReleases": true,
     "sections": [
       {
         "type": "feat",
