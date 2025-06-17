@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="1.1.0"></a>
+## [1.1.0](https://www.github.com/jeffu231/BuildTestConsoleApp/releases/tag/v1.1.0) (2025-06-17)
+
+### ✨ Features
+
+* Added new features ([afc7cf1](https://www.github.com/jeffu231/BuildTestConsoleApp/commit/afc7cf16d4f11a21b3bde3500917d407f99b3ebc))
+
+### Continuous Integration
+
+* fix .versionize config ([ff0d337](https://www.github.com/jeffu231/BuildTestConsoleApp/commit/ff0d337a3aff6cba7e2c150f159a0f8004250bdc))
+
 <a name="1.0.7"></a>
 ## [1.0.7](https://www.github.com/jeffu231/BuildTestConsoleApp/releases/tag/v1.0.7) (2025-06-17)
 
