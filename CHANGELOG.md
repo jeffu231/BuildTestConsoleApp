@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="1.0.2"></a>
+## [1.0.2](https://www.github.com/jeffu231/BuildTestConsoleApp/releases/tag/v1.0.2) (2025-06-17)
+
+### Bug Fixes
+
+* Remove .idea files from repo ([a7c4ef2](https://www.github.com/jeffu231/BuildTestConsoleApp/commit/a7c4ef24a046acf7f1b3135e1ef1f26d6b69a3ec))
+* rename project to correct spelling ([c7aaf4d](https://www.github.com/jeffu231/BuildTestConsoleApp/commit/c7aaf4d1789ebdf12679fae65a7291f449c1749f))
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://www.github.com/jeffu231/BuildTestConsoleApp/releases/tag/v1.0.1) (2025-06-17)
 
