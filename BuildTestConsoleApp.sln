@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuidTestConsoleApp", "BuidTestConsoleApp\BuidTestConsoleApp.csproj", "{5421D2F6-BBB9-4E07-9220-B1A6AA9B1DB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildTestConsoleApp", "BuildTestConsoleApp\BuildTestConsoleApp.csproj", "{5421D2F6-BBB9-4E07-9220-B1A6AA9B1DB9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EB23985F-4775-4975-938B-61284A414589}"
 	ProjectSection(SolutionItems) = preProject
