@@ -1,4 +1,4 @@
-name: Build and Publish Image to GitHub Container Registry
+name: BuildTestConsole App Build
 
 on:
   # trigger manual
@@ -48,7 +48,7 @@ jobs:
         
       - name: Versioning
         id: versionize
-        run: versionize --changelog-all --skip-dirty
+        run: versionize --aggregate-pre-releases --skip-dirty
         continue-on-error: true
 
       - name: No release required
