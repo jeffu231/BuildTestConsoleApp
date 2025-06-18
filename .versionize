@@ -29,7 +29,17 @@
           "type": "docs",
           "section": "Documentation",
           "hidden": false
-       }
+       },
+       {
+           "type": "log",
+           "section": "Logging",
+           "hidden": false
+        },
+        {
+            "type": "wip",
+            "section": "Work in Progress",
+            "hidden": false
+         }
     ]
   }
 }
