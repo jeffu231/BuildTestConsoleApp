@@ -3,7 +3,7 @@
 using System.Reflection;
 
 Console.WriteLine("Hello, World");
-Console.WriteLine("Hello, World Enhanced 3");
+Console.WriteLine("Hello, World Enhanced 4");
 
 Version version = Assembly.GetExecutingAssembly().GetName().Version ?? Version.Parse("0.0.0.0");
 Console.WriteLine($"The version of the currently executing assembly is: {version}");
