@@ -1,23 +1,23 @@
 {
   "changelog": {
     "header": "BuildTestConsole Changelog",
-    "includeAllCommits": true,
+    "includeAllCommits": false,
     "skipDirty": true,
     "aggregatePreReleases": true,
     "sections": [
       {
         "type": "feat",
-        "section": "✨ Features",
+        "section": "Features",
         "hidden": false
       },
       {
         "type": "fix",
-        "section": "🐛 Bug Fixes",
+        "section": "Bug Fixes",
         "hidden": false
       },
       {
         "type": "perf",
-        "section": "🚀 Performance",
+        "section": "Performance",
         "hidden": false
       },
       {
