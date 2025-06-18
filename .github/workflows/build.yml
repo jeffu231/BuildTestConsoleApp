@@ -74,7 +74,7 @@ jobs:
         run: echo "$(versionize changelog)" > latest_changelog.md
 
       - name: Build
-        run: dotnet build BuildTestConsoleApp -c Release --output ./Publish
+        run: dotnet build BuildTestConsoleApp -c Release --output ./Publish/BuildTestConsoleApp
           
       - name: Publish new release
         if: steps.versionize.outcome == 'success'
@@ -83,8 +83,6 @@ jobs:
         run: |
           gh release create ${{env.VERSION}} -t "Release ${{env.VERSION}}" -F latest_changelog.md
           cd ./Publish
-          mkdir BuildTestConsoleApp
-          mv * BuildTestConsoleApp/
           zip -r BuildTestConsoleApp_${{env.VERSION}}.zip BuildTestConsoleApp
           gh release upload ${{env.VERSION}} BuildTestConsoleApp_${{env.VERSION}}.zip
                     
