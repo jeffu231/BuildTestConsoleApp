@@ -39,9 +39,6 @@ jobs:
         
       - name: Install Dependencies
         run: dotnet restore
-        
-      - name: Build
-        run: dotnet build
 
       - name: Setup git
         run: |
@@ -75,6 +72,9 @@ jobs:
       - name: Get current changelog
         if: steps.versionize.outcome == 'success'
         run: echo "$(versionize changelog)" > latest_changelog.md
+
+      - name: Build
+        run: dotnet build BuildTestConsoleApp -c Release --output ./Publish
           
       - name: Publish new release
         if: steps.versionize.outcome == 'success'
